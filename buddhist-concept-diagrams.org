@@ -108,7 +108,7 @@
 #+RESULTS:
 [[file:image/saseongjae-1-gojae.png]]
 
-***** 5 Aggregates of Clinging 五取蘊오취온
+***** Five Aggregates of Clinging 五取蘊오취온
 
 #+begin_src mermaid :file image/ohchwion.png
   graph LR
