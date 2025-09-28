@@ -54,9 +54,12 @@
 
 *** Right View (The Four Noble Truths 四聖諦사성제)
 
+- Korean: 正見정견 (四聖諦사성제)
+- Pali: sammā diṭṭhi (cattāri ariyasaccāni)
+
 #+begin_src mermaid :file image/saseongjae.png
   graph LR
-      A[I. Right View 正見] --> B(四聖諦 The 4 Noble Truths)
+      A[I. Right View 正見정견] --> B(四聖諦사성제 The 4 Noble Truths)
 
       B --> C[1 The Truth of Suffering 苦諦고제 - 三苦삼고]
       C --> C1(Suffering from Suffering 苦苦고고)
@@ -79,6 +82,9 @@
 [[file:image/saseongjae.png]]
 
 **** 1. The Truth of Suffering 苦諦고제
+
+- Korean: 苦諦고제
+- Pali: Dukkhaṁ Ariyasaccaṁ
 
 #+begin_src mermaid :file image/saseongjae-1-gojae.png
   graph LR
@@ -116,7 +122,10 @@
 #+RESULTS:
 [[file:image/ohchwion.png]]
 
-**** 2. The Truth of the Origin of Suffering 集諦집제 Dukkha samudaya
+**** 2. The Truth of the Origin of Suffering 集諦집제
+
+- Korean: 集諦집제
+- Pali: Dukkha samudaya
 
 #+begin_src mermaid :file image/saseongjae-2-jipjae.png
   graph LR
@@ -129,7 +138,10 @@
 #+RESULTS:
 [[file:image/saseongjae-2-jipjae.png]]
 
-**** 3. The Truth of the Cessation of Suffering 滅諦멸제 Dukkha Nirodha
+**** 3. The Truth of the Cessation of Suffering 滅諦멸제
+
+- Korean: 滅諦멸제
+- Pali: Dukkha Nirodha
 
 Nibbāna 涅槃열반 is another term for the end of suffering, which is
 accompanied with the cessation of rebirth.
@@ -165,6 +177,9 @@ Path]].
 
 *** Right Intention
 
+- Korean: 正思維정사유
+- Pali: Sammā Saṅkappa
+
 #+begin_src mermaid :file image/jeongsayoo.png
   graph TD
       A["II. Right Intention 正思維정사유 (Sammā Saṅkappa)"]
@@ -181,3 +196,15 @@ Path]].
 
 #+RESULTS:
 [[file:image/jeongsayoo.png]]
+
+*** Right Speech
+
+*** Right Action
+
+*** Right Livelihood
+
+*** Right Effort
+
+*** Right Mindfulness
+
+*** Right Concentration
