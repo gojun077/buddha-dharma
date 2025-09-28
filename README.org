@@ -1,0 +1,18 @@
+#+TITLE: Buddha Dharma repo
+#+SUBTITLE: notes, diagrams, etc for my personal Buddhist dharma study
+#+AUTHOR: Peter Jun Koh
+#+EMAIL: gopeterjun@naver.com
+#+DESCRIPTION:
+#+LANGUAGE: en, ko
+
+* Summary
+
+- Created on: [2025-09-28 Sun]
+- Last Updated: [2025-09-28 Sun 18:36]
+
+This repo contains notes, diagrams, and other mostly non-binary file
+materials related to my Buddhist Dharma study.
+
+Also refer to my Google NotebookLM [[https://notebooklm.google.com/notebook/274540c8-8583-49b7-9e9e-141d18d3988a][Buddhist_Dhamma_Pali_to_English]] where I
+have uploaded ~.txt~ and ~.pdf~ versions of the Pali Tipitaka so I can
+ask NotebookLM about the Theravada Pali Canon.
