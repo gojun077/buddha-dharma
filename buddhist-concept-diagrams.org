@@ -1,0 +1,183 @@
+#+TITLE: Buddhist Concept Diagrams
+#+SUBTITLE: diagram of core Buddhist precepts
+#+AUTHOR: Peter Jun Koh
+#+EMAIL: gopeterjun@naver.com
+#+DESCRIPTION: Noble Eightfold Path, Four Noble Truths, dharma
+#+LANGUAGE: en, ko
+
+* Summary
+
+- Created on: [2025-09-28 Sun]
+- Last Updated: [2025-09-28 Sun 18:44]
+
+* Topics
+
+** Noble Eightfold Path (NEP) 八正道파정도
+:PROPERTIES:
+:ID:       9f9b1816-755b-4945-9d2e-7da15e8f9421
+:END:
+
+- Korean: 八正道파정도
+- Pali: Ariya Aṭṭhaṅgika Magga
+
+#+begin_src mermaid :file image/paljeongdo.png
+  graph LR
+      A[八正道 The Noble Eightfold Path] --> B[I. Right View 正見정견]
+      A --> C[II. Right Intention 正思維정사유]
+      A --> D[III. Right Speech 正語정어]
+      A --> E[IV. Right Action 正業정업]
+      A --> F[V. Right Livelihood 正命정명]
+      A --> G[VI. Right Effort 正精進정정진]
+      A --> H[VII. Right Mindfulness 正念정념]
+      A --> I[VIII. Right Concentration 正定정정]
+
+      subgraph "Wisdom (Prajñā)"
+          B
+          C
+      end
+
+      subgraph "Ethical Conduct (Śīla)"
+          D
+          E
+          F
+      end
+
+      subgraph "Mental Discipline (Samādhi)"
+          G
+          H
+          I
+      end
+#+end_src
+
+#+RESULTS:
+[[file:image/paljeongdo.png]]
+
+*** Right View (The Four Noble Truths 四聖諦사성제)
+
+#+begin_src mermaid :file image/saseongjae.png
+  graph LR
+      A[I. Right View 正見] --> B(四聖諦 The 4 Noble Truths)
+
+      B --> C[1 The Truth of Suffering 苦諦고제 - 三苦삼고]
+      C --> C1(Suffering from Suffering 苦苦고고)
+      C --> C2(Suffering from Change 壞苦괴고)
+      C --> C3(Suffering from Impermanence 行苦행고)
+
+      B --> D[2 The Truth of the Origin of Suffering 集諦집제]
+      D --> D1(Craving for Sensual Pleasure 慾愛욕애 kāma-taṇhā)
+      D --> D2(Craving for Existence 有愛유애 bhava-taṇhā)
+      D --> D3(Craving for Non-existence 無有愛무유애 vibhava-taṇhā)
+
+      B --> E[3 The Truth of the Cessation of Suffering 滅諦멸제]
+      E --> E1(The complete fading away and cessation of that same craving)
+
+      B --> F[4 The Truth of the Way to the Cessation of Suffering 道諦도제]
+      F --> G[八正道 The Noble Eightfold Path]
+#+end_src
+
+#+RESULTS:
+[[file:image/saseongjae.png]]
+
+**** 1. The Truth of Suffering 苦諦고제
+
+#+begin_src mermaid :file image/saseongjae-1-gojae.png
+  graph LR
+      A[I. The Truth of Suffering 苦諦고제] --> B(三苦삼고 The Three Sufferings)
+
+      B --> C[Suffering from Suffering 苦苦고고]
+      C --> C1(生苦생고 Birth is suffering)
+      C --> C2(老苦노고 Aging is suffering)
+      C --> C3(病苦병고 Sickness is suffering)
+      C --> C4(死苦사고 Death is suffering)
+
+      B --> D[Suffering from Change 壞苦괴고]
+      D --> D1(怨憎會苦원증회고 Association with the unpleasant is suffering)
+      D --> D2(愛別離苦애별리고 Separation from the pleasant is suffering)
+      D --> D3(求不得苦구부득고 Not getting what you want is suffering)
+
+      B --> E[Suffering from Impermanence 行苦행고]
+      E --> E1(五取蘊苦오취온고 The 5 Aggregates of Clinging are suffering)
+#+end_src
+
+#+RESULTS:
+[[file:image/saseongjae-1-gojae.png]]
+
+***** 5 Aggregates of Clinging 五取蘊오취온
+
+#+begin_src mermaid :file image/ohchwion.png
+  graph LR
+      A[5 Aggregates of Clinging</br> 五取蘊오취온] --> B[I. Form 色색]
+        A --> C[II. Feelings / Sensations 受수]
+        A --> D[III. Perception 想상]
+        A --> E[IV. Mental Activity 行행]
+        A --> F[V. Consciousness 識식]
+#+end_src
+
+#+RESULTS:
+[[file:image/ohchwion.png]]
+
+**** 2. The Truth of the Origin of Suffering 集諦집제 Dukkha samudaya
+
+#+begin_src mermaid :file image/saseongjae-2-jipjae.png
+  graph LR
+      A[II. Truth of the Origin of Suffering 集諦집제] --> B[Craving 渴愛갈애 taṇhā]
+      B --> B1(Craving for Sense Pleasure 慾愛욕애 kāma-taṇhā)
+      B --> B2(Craving for Existence 有愛유애 bhava-taṇhā)
+      B --> B3(Craving for Non-Existence 無有愛무유애 vibhava-taṇhā)
+#+end_src
+
+#+RESULTS:
+[[file:image/saseongjae-2-jipjae.png]]
+
+**** 3. The Truth of the Cessation of Suffering 滅諦멸제 Dukkha Nirodha
+
+Nibbāna 涅槃열반 is another term for the end of suffering, which is
+accompanied with the cessation of rebirth.
+
+#+begin_src mermaid :file image/saseongjae-4-myeoljae.png
+  graph LR
+      A[III. Truth of the End of Suffering 滅諦멸제] --> B[Full Abandonment of Craving 渴愛消滅갈애소멸]
+      B --> B1(1 Cessation of Ignorance 無知消滅무지소멸)
+      B --> B2(2 Cessation of Volitional Formations)
+      B --> B3(3 Cessation of Consciousness)
+      B --> B4(4 Cessation of Birth)
+      B --> C(5 Cessation of this Whole Mass of Suffering)
+
+      C --> C1(Aging)
+      C --> C2(Death)
+      C --> C3(Sorrow)
+      C --> C4(Lamentation)
+      C --> C5(Pain)
+      C --> C6(Displeasure)
+      C --> C7(Despair)
+#+end_src
+
+#+RESULTS:
+[[file:image/saseongjae-4-myeoljae.png]]
+
+**** 4. The Truth of the Way to the Cessation of Suffering 道諦도제
+
+- Korean: 道諦도제
+- Pali: Dukkha-nirodha-gāminī paṭipadā
+
+The Fourth Noble Truth is recursive, and refers back to [[id:9f9b1816-755b-4945-9d2e-7da15e8f9421][The Noble Eightfold
+Path]].
+
+*** Right Intention
+
+#+begin_src mermaid :file image/jeongsayoo.png
+  graph TD
+      A["II. Right Intention 正思維정사유 (Sammā Saṅkappa)"]
+
+      A --> B["1 The Intention of Renunciation 出離출리 (Nekkhamma)"]
+      B --> B1["(Opposes Craving & Worldly Desire)"]
+
+      A --> C["2 The Intention of Goodwill 無恚무에 (Avyāpāda)"]
+      C --> C1["(Opposes Ill-will & Aversion)"]
+
+      A --> D["3 The Intention of Harmlessness 無害무해 (Avihiṃsā)"]
+      D --> D1["(Opposes Cruelty & Harmfulness)"]
+#+end_src
+
+#+RESULTS:
+[[file:image/jeongsayoo.png]]
